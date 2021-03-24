@@ -1,6 +1,5 @@
 spring:
   profiles:
-    active: production
+    active: dev
   application:    name: bootstrap
   config:    import: optional:configserver:http://34.64.197.212:8888
-       
