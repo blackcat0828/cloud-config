@@ -1,0 +1,17 @@
+# board mysql 데이터베이스 연결 정보 03.08
+spring.datasource.hikari.driver-class-name=net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+spring.datasource.hikari.jdbc-url=jdbc:log4jdbc:mysql://localhost:3308/board?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Seoul
+spring.datasource.hikari.username=board
+spring.datasource.hikari.password=board1234
+spring.datasource.hikari.connection-test-query=select 1
+
+
+#rest방식을 이용시 
+#hidden으로 선언된 속성을 
+#name=_methodd으로 설정하고 PUT,DELETE 전송방식을 이용시
+#HiddenHttpMethodFilter를 사용하는데 스프링 부트 2.1.X이상
+#버전에서는 이기능이 내장되어 있는데 이것을 enabled=true로
+#활성화 시켜준다.
+spring.mvc.hiddenmethod.filter.enabled=true
+
+

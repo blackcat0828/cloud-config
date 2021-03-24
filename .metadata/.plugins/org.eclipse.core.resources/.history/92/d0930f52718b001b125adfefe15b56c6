@@ -1,0 +1,22 @@
+spring:
+  datasource:
+      hikari:
+        allow-pool-suspension=true
+        connection-test-query=select 1
+      jpa:
+        database: mysql
+        database-platform: org.hibernate.dialect.MySQL8Dialect
+        generate-ddl: true
+        hibernate:
+          use-new-id-generator-mappings: false
+          ddl-auto: update
+mybatis.configuration.map-underscore-to-camel-case=true
+
+spring.mvc.hiddenmethod.filter.enabled=true
+
+spring.jpa.database=mysql
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.use-new-id-generator-mappings=false
+

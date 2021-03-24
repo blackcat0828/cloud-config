@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/blackcat0828/cloud-config.git
+          username: blackcat0828
+          password: dpzhdlek0828!

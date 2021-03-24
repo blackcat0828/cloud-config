@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active:    - dev
+  application:    name: bootstrap
+  config:    import:
+       classpath: http://localhost:8888
