@@ -1,6 +1,0 @@
-spring:
-  profiles:
-    active:    - production
-  application:    name: bootstrap
-  config:    import: optional:configserver:http://localhost:8888/bootstrap/dev
-       

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CloudConfigApplicationTests" project="cloud-config" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="cloudconfig.cloudconfig.CloudConfigApplicationTests" time="0.783" displayname="CloudConfigApplicationTests" uniqueid="[engine:junit-jupiter]/[class:cloudconfig.cloudconfig.CloudConfigApplicationTests]">
-    <testcase name="contextLoads" classname="cloudconfig.cloudconfig.CloudConfigApplicationTests" time="0.783" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:cloudconfig.cloudconfig.CloudConfigApplicationTests]/[method:contextLoads()]"/>
-  </testsuite>
-</testrun>

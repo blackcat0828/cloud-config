@@ -1,8 +1,0 @@
-spring:
-  profiles:
-    active:    - dev
-  application:    name: bootstrap
-  config:    import:     optional:
-       configserver:
-           uri: http://localhost:8888
-           name: cloud-config
